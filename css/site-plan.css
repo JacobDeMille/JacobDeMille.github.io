@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
 
 
-/* Full green color pallete for reference */
-/*
+/* Full green color pallete for reference 
 --nyanza: #d8f3dcff;
 --turquoise-green: #b7e4c7ff;
 --turquoise-green-2: #95d5b2ff;
@@ -13,25 +12,31 @@
 --brunswick-green: #1b4332ff;
 --dark-jungle-green: #081c15ff;
 */
-
+/* Main color pallete 
+--light-gray: #dad2d8ff;
+--gunmetal: #143642ff;
+--illuminating-emerald: #40916cff;
+--burnt-sienna: #de6e4bff;
+*/
 :root {
-    --primary-color: #1b4332ff;
-    --secondary-color: #40916cff;
-    --accent1-color: #74c69dff;
-    --accent2-color: #40916cff;
+    --primary-color: #40916cff;
+    --secondary-color: #de6e4bff;
+    --accent1-color: #dad2d8ff;
+    --accent2-color: #143642ff;
+
     --heading-font: "IM Fell French Canon SC";
-    --paragraph-font: Lato, Helvetica, sans-serif
+    --paragraph-font: Lato, Helvetica, sans-serif;
 }
 
 html {
-    background-color: var(--secondary-color)
+    background-color: var(--primary-color)
 }
 
 body {
     max-width: 900px;
     margin: 0 auto;
-    background-color: white;
-    padding: 1em
+    background-color: var(--accent1-color);
+    padding: 1em;
 }
 
 img {
@@ -40,23 +45,23 @@ img {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
-    color: var(--accent2-color)
+    color: var(--secondary-color);
 }
 
 header {
     padding: 1em;
     text-align: center;
-    color: var(--accent2-color);
-    background-color: 
+    color: var(--secondary-color);
+    background-color: var(--accent2-color);
 }
 
 header>h1 {
-    color:
+    color: var(--secondary-color);
 }
 
 p {
     font-family: var(--paragraph-font);
-    color: ;
+    color: var(--accent1-color);
     padding: 1em
 }
 
@@ -93,7 +98,7 @@ p {
 }
 
 nav {
-    background-color: ;
+    background-color: var(--accent2-color);
     line-height: 3em;
     text-align: center;
     font-size: 1.2em
@@ -111,10 +116,10 @@ nav a {
 
 nav a:link,
 nav a:visited {
-    color:
+    color: var(--primary-color);
 }
 
 nav a:hover {
-    color: ;
-    background-color:
+    color: var(--accent1-color);
+    background-color: var(--accent2-color);
 }

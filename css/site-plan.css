@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
-
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@600&display=swap');
 
 /* Full green color pallete for reference 
 --nyanza: #d8f3dcff;
@@ -24,8 +24,8 @@
     --accent1-color: #dad2d8ff;
     --accent2-color: #143642ff;
 
-    --heading-font: "IM Fell French Canon SC";
-    --paragraph-font: Lato, Helvetica, sans-serif;
+    --heading-font: "Source Sans Pro", sans-serif;
+    --paragraph-font: Lato, 'Josefin Slab', serif;
 }
 
 html {

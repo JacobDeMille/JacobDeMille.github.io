@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@600&display=swap');
+
+:root {
+    --primary-color: #40916cff;
+    --secondary-color: #de6e4bff;
+    --accent1-color: #dad2d8ff;
+    --accent2-color: #143642ff;
+
+    --heading-font: "Source Sans Pro", sans-serif;
+    --paragraph-font: Lato, 'Josefin Slab', serif;
+}
+html {
+    background-color: var(--primary-color)
+}
+
+header, main, footer {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+header {
+    align-items: center;
+    display: flex;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    color: var(--secondary-color);
+    background-color: var(--accent2-color);
+}
+
+h1 {
+    font-family: var(--heading-font);
+    padding-left: 5px;
+}
+
+#icon {
+    padding: .5em;
+}
+
+nav {
+    background-color: var(--accent2-color);
+    line-height: 3em;
+    text-align: center;
+    font-size: 1.2em
+}
+
+nav>ul {
+    list-style-type: none;
+    display: flex
+}
+
+nav a {
+    padding: 1em;
+    min-width: 70px
+}
+
+nav a:link,
+nav a:visited {
+    color: var(--primary-color);
+}
+
+nav a:hover {
+    color: var(--accent1-color);
+    background-color: var(--accent2-color);
+}
+
+main {
+    background-color: var(--accent1-color);
+}
+
+h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--secondary-color);
+}
+#top {
+    font-family: var(--paragraph-font);
+    color: var(--accent2-color);
+}
+
+#center {
+    font-family: var(--paragraph-font);
+    color: var(--accent2-color);
+}
+
+#bottom {
+    font-family: var(--paragraph-font);
+    color: var(--accent2-color);
+}
+
+footer {
+    font-family: var(--paragraph-font);
+    color: var(--accent1-color);
+    background-color: var(--accent2-color);
+}

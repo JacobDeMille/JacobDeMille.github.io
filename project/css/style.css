@@ -11,7 +11,7 @@
     --accent2-color: #143642ff;
 
     --heading-font: "Source Sans Pro", sans-serif;
-    --paragraph-font: Lato, 'Josefin Slab', serif;
+    --paragraph-font: 'Josefin Slab', serif;
 }
 html {
     background-color: var(--primary-color);

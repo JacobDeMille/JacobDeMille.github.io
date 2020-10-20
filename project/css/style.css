@@ -107,6 +107,10 @@ h2, h3, h4, h5, h6 {
     height: 250px;
 }
 
+#img-center {
+    height: 140px;
+}
+
 #top, #center, #botom {
     padding: 1.5em 1.5em;
 }
@@ -114,6 +118,7 @@ h2, h3, h4, h5, h6 {
 footer {
     display: grid;
     grid-template-columns: auto auto auto auto;
+    justify-content: space-between;
     font-family: var(--paragraph-font);
     color: var(--accent1-color);
     background-color: var(--accent2-color);
@@ -127,7 +132,8 @@ footer {
 .social {
     padding: .5em;
     margin-top: 1em;
-    text-align: right;
+    text-align: end;
+    
 }
 .copy {
     text-align: center;

@@ -40,7 +40,8 @@ body {
     grid-column: 1 / 3;
 }
 
-/*Layout2*/
+/*Layout2
+    Used relative positioning and equal px to move every box into the correct possition*/
 
 .red2 {
     width: 100px;
@@ -76,7 +77,8 @@ body {
     top: -150px;
 }
 
-/*Layout 3*/
+/*Layout 3
+    Used similar methods to layout 1 to get the right posstioning and sizes*/
 
 .content3 {
     display: grid;
@@ -112,7 +114,8 @@ body {
     grid-column: 1 / 3;
 }
 
-/*Layout 4*/
+/*Layout 4
+    Used grid rows as well as grid columns to size and possition the red box correctly and the three side boxes as well. */
 
 .content4 {
     display: grid;
@@ -146,7 +149,12 @@ body {
     background-color: blue;
 }
 
-/*Laytout 5*/
+/*Laytout 5
+    I set the max width to 600px and set red, gold and blue to be 100% of the width available. 
+    I then set green to flaot left so that it sould sit on top of the gold box. I put the lorem ipsum text
+    inside of a <p> tag and put that inside of the <div> tag so that the text would sit in the gold box. 
+    I set the <p> tag to have a margin of 0 to cancel out the inherited top and bottom margins. I then set the <p>
+    tag to have a padding of 1em and gave the green box a right and bottom margin of 1em.*/
 
 .content5 {
     max-width: 600px;
@@ -156,7 +164,6 @@ body {
     width: 100%;
     height: 100px;
     background-color: red;
-    grid-column: 1 / 3;
 }
 
 .green5 {
@@ -164,16 +171,18 @@ body {
     height: 200px;
     background-color: green;
     float: left;
+    /*Used to give the text padding from the green box*/
     margin-right: 1em;
+    margin-bottom: 1em;
 }
 
 .gold5 {
     width: 100%;
     height: 350px;
     background-color: gold;
-    grid-column: 1 / 3;
 }
 
+/*Used to give the text in the gold box padding from all of the edges*/
 .gold5 > p {
     margin: 0;
     padding: 1em;
@@ -183,10 +192,13 @@ body {
     width: 100%;
     height: 100px;
     background-color: blue;
-    grid-column: 1 / 3;
 }
 
-/*Layout 6*/
+/*Layout 6
+    Used grid and set all of the boxes to have a relative positioning. I set the red6 and blue 6 to 
+    have a z-index of -1 so that they are behind the yellow and green boxes. I then set all of the sizes for the boxes and moved them to the correct possitions. 
+    I set the same max width as the other sections, 600px, so that I could easily figure out where each box needed to be positioned in relation to the other 
+    boxes.*/
 
 .content6 {
     display: grid;

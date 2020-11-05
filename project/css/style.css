@@ -80,7 +80,7 @@ nav a {
 
 nav a:link,
 nav a:visited {
-    color: var(--primary-color);
+    color: #42efa0;
     text-decoration: none;
 }
 
@@ -102,7 +102,12 @@ main {
     
 }
 
-h2, h3, h4, h5, h6 {
+h2 {
+    font-family: var(--heading-font);
+    color: #b12a00;
+}
+
+h3, h4, h5, h6 {
     font-family: var(--heading-font);
     color: var(--secondary-color);
 }

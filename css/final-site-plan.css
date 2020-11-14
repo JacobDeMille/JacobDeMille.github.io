@@ -4,8 +4,8 @@
     --accent1-color: #F3C98B;
     --accent2-color: #004E89;
 
-    --heading-font: "Source Sans Pro", sans-serif;
-    --paragraph-font: Lato, 'Josefin Slab', serif;
+    --heading-font: Verdana, Geneva, Tahoma, sans-serif;
+    --paragraph-font: Georgia, 'Times New Roman', Times, serif;
 }
 
 html {
@@ -18,7 +18,8 @@ body {
 }
 
 img {
-    max-width: 100%
+    max-width: 100%;
+    height: 96px;
 }
 
 h1, h2, h3, h4, h5, h6 {

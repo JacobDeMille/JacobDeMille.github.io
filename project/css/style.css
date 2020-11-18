@@ -265,6 +265,43 @@ footer {
     }
 }
 /*Styles for Amentities page*/
+.amenities {
+    display: block;
+}
+
+#amenities {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+#amenities div {
+    display: flex;
+}
+
+#amenities img {
+    max-width: 200px;
+    max-height: 100px;
+    padding: 1em;
+    margin-top: 1em;
+}
+
+#amenities span {
+    flex-direction: column;
+    padding: .5em 1em 0 .5em;
+}
+
+@media (max-width: 800px) {
+    #amenities {
+        display: block;
+    }
+
+}
+
+@media (max-width: 400px) {
+    #amenities div {
+        display: block;
+    }
+}
 
 
 /*Styles for Spotlight page*/

@@ -264,6 +264,10 @@ footer {
         display: block;
     }
 }
+/*Styles for Amentities page*/
+
+
+/*Styles for Spotlight page*/
 
 /*Styles for Reservation form*/
 #reservations {
@@ -321,9 +325,8 @@ form {
     grid-column: span 2;
 }
 
-#form-head {
+.myForm h2 {
     font-size: 2em;
-    font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
     grid-column: span 2;
 }

@@ -95,6 +95,11 @@ nav a:hover {
     text-decoration: underline;
 }
 
+#current {
+   
+    text-decoration: underline;
+}
+
 .hero-image {
     width: fit-content;
     margin-left: auto;
@@ -142,10 +147,13 @@ h6 {
     grid-row: 4;
 }
 
+#img-top, #img-center, #portland-temple, #spotlight-img, #amenities img {
+    box-shadow: 5px 5px 5px #999;
+}
+
 #img-top {
     grid-column: 2;
     height: auto;
-    box-shadow: 5px 5px 5px #999;
 }
 
 #top {
@@ -155,7 +163,6 @@ h6 {
 #img-center {
     grid-column: 1;
     height: auto;
-    box-shadow: 5px 5px 5px #999;
 }
 
 #center {
@@ -283,8 +290,7 @@ footer {
 #amenities img {
     max-width: 200px;
     max-height: 100px;
-    padding: 1em;
-    margin-top: 1em;
+    margin: 2em 1em 1em 1em;
 }
 
 #amenities span {
@@ -309,24 +315,55 @@ footer {
 /*Styles for Spotlight page*/
 .spotlight {
     display: block;
+    line-height: 1.6;
 }
 
 #spotlight {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto auto auto auto;
+    gap: 5px;
+    padding: 0 2em;
 }
 
-#spotlight h2 {
-    grid-column: span 2;
+#title {
+    grid-column: span 4;
     text-align: center;
-}
-
-#spotlight h3 {
+    letter-spacing: 1.5px;
     font-family: 'Dancing Script', cursive;
-    font-size: 1.25em;
-    letter-spacing: 1px;
+}
+
+#spotlight p {
+    padding: 0 1em;
+}
+
+#portland {
     text-align: center;
-    grid-column: span 1;
+    grid-column: span 4;
+}
+
+#info {
+    grid-column: span 4;
+    text-indent: 3em;
+    text-align: left;
+    margin-inline-start: 3em;
+    margin-inline-end: 3em;
+    padding-left: 0;
+}
+
+#services {
+    grid-column: 1 / 2;
+}
+
+.visitors {
+    grid-column: 1 / span 4;
+}
+
+#visitors {
+    display: flex;
+}
+
+#visitors p {
+    text-indent: 3em;
 }
 
 /*Styles for Reservation form*/

@@ -96,7 +96,6 @@ nav a:hover {
 }
 
 #current {
-   
     text-decoration: underline;
 }
 
@@ -118,7 +117,7 @@ h4,
 h5,
 h6 {
     font-family: var(--heading-font);
-    color: var(--secondary-color);
+    color: #b12a00;
 }
 
 .top,
@@ -147,7 +146,7 @@ h6 {
     grid-row: 4;
 }
 
-#img-top, #img-center, #portland-temple, #spotlight-img, #amenities img {
+#img-top, #img-center, #portland-temple, #spotlight-img, #spires, #amenities img {
     box-shadow: 5px 5px 5px #999;
 }
 
@@ -332,8 +331,16 @@ footer {
     font-family: 'Dancing Script', cursive;
 }
 
-#spotlight p {
+.info {
+    grid-column: span 4;
+    text-indent: 3em;
+    text-align: left;
+    margin: 1em 3em 0 3em;
+}
+
+#visitors p{
     padding: 0 1em;
+    text-indent: 3em;
 }
 
 #portland {
@@ -341,17 +348,39 @@ footer {
     grid-column: span 4;
 }
 
-#info {
-    grid-column: span 4;
-    text-indent: 3em;
-    text-align: left;
-    margin-inline-start: 3em;
-    margin-inline-end: 3em;
-    padding-left: 0;
+#features {
+    grid-column: 2 / 4;
+    background-color: #f5f5f5;
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 1em;
+    padding: 1.5em;
+    margin: 1em;
 }
 
-#services {
-    grid-column: 1 / 2;
+#history {
+    grid-column: span 4;
+}
+
+.history {
+    text-align: right;
+    padding-right: 1em;
+}
+
+#history span{
+    text-indent: 3em;
+    display: flex;
+    padding-right: 1em;
+}
+
+#spires {
+    border-radius: 20px;
+    margin-left: .75em;
+}
+
+#features ul, #features p {
+    padding: 0;
 }
 
 .visitors {
@@ -360,10 +389,6 @@ footer {
 
 #visitors {
     display: flex;
-}
-
-#visitors p {
-    text-indent: 3em;
 }
 
 /*Styles for Reservation form*/
@@ -394,11 +419,15 @@ form {
 
 #card_type {
     display: grid;
-    font-size: 1em;
 }
 
-#card_type span {
+.card_type {
+    font-size: 1.5em;
+}
+
+#card_type label {
     padding-left: 5px;
+    font-size: 1em;
 }
 
 #first_name,
@@ -441,7 +470,7 @@ form {
 #validate {
     width: 100%;
     background-color: #4caf4c;
-    color: white;
+    color: #a06666;
     padding: .75em 1em;
     margin: .5em 0;
     border: none;
@@ -483,21 +512,4 @@ input:valid {
 
 input:focus:invalid {
     outline: none;
-}
-
-/* This is the style of our error messages */
-.error {
-    width: 100%;
-    padding: 0;
-
-    font-size: 80%;
-    color: white;
-    background-color: #900;
-    border-radius: 0 0 5px 5px;
-
-    box-sizing: border-box;
-}
-
-.error.active {
-    padding: 0.3em;
 }

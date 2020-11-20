@@ -292,7 +292,11 @@ footer {
     margin: 2em 1em 1em 1em;
 }
 
-#amenities span {
+#amenities h2 {
+    font-size: 20px;
+}
+
+#breakfast, #workout, #internet, #pool, #shuttle, #consult {
     flex-direction: column;
     padding: .5em 1em 0 .5em;
 }
@@ -368,7 +372,7 @@ footer {
     padding-right: 1em;
 }
 
-#history span{
+#history div{
     text-indent: 3em;
     display: flex;
     padding-right: 1em;
@@ -390,6 +394,47 @@ footer {
 #visitors {
     display: flex;
 }
+
+@media (max-width: 800px) {
+    #visitors, #history div {
+        display: block;
+    }
+
+    .visitors  {
+        padding: 1.5em;
+    }
+
+    #history {
+        text-align: center;
+    }
+
+    #history p {
+        text-align: left;
+    }
+
+}
+
+@media (max-width: 600px) {
+    #features {
+        grid-column: span 4;
+    }
+}
+
+@media (max-width: 400px) {
+    .visitors, .history {
+        display: block;
+        text-align: center;
+    }
+
+    .visitors p {
+        text-align: left;
+    }
+
+    #features {
+        display: block;
+    }
+}
+
 
 /*Styles for Reservation form*/
 #reservations {
@@ -447,7 +492,7 @@ form {
     box-sizing: border-box;
 }
 
-#email-row {
+#email-row, #name, #address-title, #payment-title, #submit-hr {
     grid-column: span 2;
 }
 
@@ -469,8 +514,8 @@ form {
 #clear,
 #validate {
     width: 100%;
-    background-color: #4caf4c;
-    color: #a06666;
+    background-color: #40916c;
+    color: #000000;
     padding: .75em 1em;
     margin: .5em 0;
     border: none;
@@ -485,6 +530,7 @@ form {
 
 #clear:hover,
 #validate:hover {
+    color: #ffffff;
     background-color: #454545;
 }
 
@@ -512,4 +558,10 @@ input:valid {
 
 input:focus:invalid {
     outline: none;
+}
+
+@media (max-width: 600px) {
+    .myForm ul {
+        display: block;
+    }
 }

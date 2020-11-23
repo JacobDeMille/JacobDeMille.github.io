@@ -1,11 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@300&display=swap');
+
 :root {
     --primary-color: #9CF6F6;
     --secondary-color: #F1607C;
     --accent1-color: #F3C98B;
     --accent2-color: #004E89;
 
-    --heading-font: Verdana, Geneva, Tahoma, sans-serif;
-    --paragraph-font: Georgia, 'Times New Roman', Times, serif;
+    --heading-font: 'Domine', serif;
+    --paragraph-font: 'Catamaran', sans-serif;
 }
 
 html {
@@ -73,7 +76,8 @@ p {
 }
 
 .accent2 {
-    background-color: var(--accent2-color)
+    background-color: var(--accent2-color);
+    color: var(--accent1-color);
 }
 
 nav {
@@ -101,4 +105,8 @@ nav a:visited {
 nav a:hover {
     color: var(--accent1-color);
     background-color: var(--accent2-color);
+}
+
+#normal {
+    color: black;
 }

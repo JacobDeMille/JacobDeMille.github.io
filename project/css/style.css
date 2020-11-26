@@ -95,7 +95,7 @@ nav a:hover {
     text-decoration: underline;
 }
 
-#current {
+.current {
     text-decoration: underline;
 }
 

@@ -139,3 +139,28 @@ h6 {
     grid-column: span 2;
     grid-row: 4;
 }
+
+footer {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-between;
+    font-family: var(--paragraph-font);
+    color: var(--accent1-color);
+    background-color: var(--accent2-color);
+}
+
+.contact {
+    padding-left: 1.5em;
+    grid-column: 1 / 4;
+}
+
+.social {
+    padding: .5em;
+    margin-top: 1em;
+    text-align: end;
+
+}
+
+.copy {
+    text-align: center;
+    grid-column: 1 / 5;

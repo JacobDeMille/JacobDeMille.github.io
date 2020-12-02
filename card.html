@@ -4,14 +4,48 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <title>Temple Inn & Suites | Your Home Away From Home</title>
-    <meta name="description" content=>
+    <title>Card Activity</title>
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="shortcut icon" href="images/temple-icon-favicon.png" type="image/x-icon">
+    <style>
+        img {
+            max-width: 100%;
+        }
+
+        .card {
+            width: 320px;
+            box-shadow: 1px 1px 4px 1px #888;
+            border-radius: 3px;
+            background-color: white;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        p {
+            padding: 1em;
+        }
+
+        footer {
+            margin: 0;
+            padding: 1em;
+        }
+
+        span {
+            float: right;
+        }
+    </style>
 </head>
 
 <body>
-    
+    <article class="card">
+        <img src="https://picsum.photos/320/240" alt="Random Image">
+        <p>This is a wider ward with supporting text bellow as a natural lead-in to additional content. This is a little
+            bit longer.</p>
+        <footer>
+            <button class="viewButton">View</button>
+            <button class="editButton">Edit</button>
+            <span>Time</span>
+        </footer>
+    </article>
+
 </body>
 
 </html>

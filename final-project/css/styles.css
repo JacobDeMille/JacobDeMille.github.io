@@ -93,17 +93,9 @@ nav a:hover {
     text-decoration: underline;
 }
 
-.hero-image {
-    width: fit-content;
-    margin-left: auto;
-    margin-right: auto;
-    grid-column: 1 / -1;
-
-}
-
 h2 {
     font-family: var(--heading-font);
-    color: #b12a00;
+    color: var(--accent1-color);
 }
 
 h3,
@@ -111,7 +103,7 @@ h4,
 h5,
 h6 {
     font-family: var(--heading-font);
-    color: #b12a00;
+    color: var(--accent1-color);
 }
 
 .top,
@@ -145,13 +137,30 @@ footer {
     grid-template-columns: auto auto auto auto;
     justify-content: space-between;
     font-family: var(--paragraph-font);
-    color: var(--accent1-color);
+    color: white;
     background-color: var(--accent2-color);
 }
 
 .contact {
     padding-left: 1.5em;
     grid-column: 1 / 4;
+}
+
+.contact div {
+    display: flex;
+    align-items: center;
+}
+
+.contact p {
+    margin: 0;
+    padding: .25em;
+}
+.contact img {
+    max-height: 30px;
+    max-width: 30px;
+    width: auto;
+    height: auto;
+    padding: .25em;
 }
 
 .social {

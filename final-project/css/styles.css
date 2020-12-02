@@ -1,15 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@300&display=swap');
+
 :root {
     --primary-color: #9CF6F6;
     --secondary-color: #F3C98B;
     --accent1-color: #F1607C;
     --accent2-color: #004E89;
 
-    --heading-font: "Source Sans Pro", Helvetica, sans-serif;
-    --paragraph-font: 'Josefin Slab', Times, serif;
+    --heading-font: 'Catamaran', sans-serif;
+    --paragraph-font: 'Raleway', sans-serif;
     
-}
-
-html {
 }
 
 body {

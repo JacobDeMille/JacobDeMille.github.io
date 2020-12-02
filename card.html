@@ -25,32 +25,31 @@
         }
 
         footer {
-            margin: 0;
             padding: 0 1em 1em 1em;
             display: grid;
-            grid-template-columns: 50px 50px 1fr;
+            grid-template-columns: 40px 35px 1fr;
             color: #888;
         }
 
         .viewButton {
             background-color: white;
-            border-radius: 3px 0 0 3px;
-            border-color: #888;
+            border-radius: 2px 0 0 2px;
             color: #888;
-            border-width: thin;
+            border: 1px solid #888;
         }
 
         .editButton {
+            border: 1px solid #888;
             border-left: none;
             background-color: white;
-            border-radius: 0 3px 3px 0;
-            border-color: #888;
+            border-radius: 0 2px 2px 0;
             color: #888;
-            border-width: thin;
         }
 
         span {
             justify-self: end;
+            align-self: center;
+            font-size: x-small;
         }
     </style>
 </head>
@@ -63,9 +62,11 @@
         <footer>
             <button class="viewButton">View</button>
             <button class="editButton">Edit</button>
-            <span>Time</span>
+            <span>9 mins</span>
         </footer>
     </article>
+
+    
 
 </body>
 

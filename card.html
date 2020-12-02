@@ -5,7 +5,6 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title>Card Activity</title>
-    <link rel="stylesheet" href="css/styles.css">
     <style>
         img {
             max-width: 100%;
@@ -17,19 +16,41 @@
             border-radius: 3px;
             background-color: white;
             font-family: Arial, Helvetica, sans-serif;
+            overflow: hidden;
         }
-        
+
         p {
+            margin: 0;
             padding: 1em;
         }
 
         footer {
             margin: 0;
-            padding: 1em;
+            padding: 0 1em 1em 1em;
+            display: grid;
+            grid-template-columns: 50px 50px 1fr;
+            color: #888;
+        }
+
+        .viewButton {
+            background-color: white;
+            border-radius: 3px 0 0 3px;
+            border-color: #888;
+            color: #888;
+            border-width: thin;
+        }
+
+        .editButton {
+            border-left: none;
+            background-color: white;
+            border-radius: 0 3px 3px 0;
+            border-color: #888;
+            color: #888;
+            border-width: thin;
         }
 
         span {
-            float: right;
+            justify-self: end;
         }
     </style>
 </head>

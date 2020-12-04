@@ -4,7 +4,7 @@
 :root {
     --primary-color: #9CF6F6;
     --secondary-color: #F3C98B;
-    --accent1-color: #F1607C;
+    --accent1-color: #dc1c41;
     --accent2-color: #004E89;
 
     --heading-font: 'Lato', sans-serif;
@@ -87,7 +87,7 @@ header {
     display: flex;
     justify-content: space-between;
     padding: .5em 0;
-    color: var(--accent1-color);
+    color: var(--primary-color);
 }
 
 footer {
@@ -123,7 +123,7 @@ nav a {
 
 nav a:link,
 nav a:visited {
-    color: var(--accent1-color);
+    color: var(--primary-color);
     text-decoration: none;
 }
 
@@ -133,7 +133,7 @@ nav a:hover {
     text-decoration: underline;
 }
 
-#current {
+.current {
     text-decoration: underline;
 }
 
@@ -194,6 +194,10 @@ footer {
     font-family: var(--paragraph-font);
     color: white;
     background-color: var(--accent2-color);
+}
+
+footer h4 {
+    color: var(--primary-color);
 }
 
 .contact {

@@ -100,8 +100,13 @@ header {
     color: var(--primary-color);
 }
 
-footer {
+footer, footer a {
     color: white;
+}
+
+footer a:hover {
+    color: var(--secondary-color);
+    background-color: var(--accent2-color);
 }
 
 .heading {

@@ -293,7 +293,7 @@ label {
     color: var(--accent1-color);
 }
 
-#name, #email, #send {
+#name, #email, #message, #send {
     padding: .75em 1em;
     margin: .5em 0;
     border: 1px solid #ccc;

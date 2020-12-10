@@ -84,8 +84,7 @@ body {
     text-transform: capitalize;
 }
 
-header,
-footer {
+header {
     margin: 2em;
     margin: 0 auto;
     background-color: var(--accent2-color);
@@ -97,15 +96,6 @@ header {
     justify-content: space-between;
     padding: .5em 0;
     color: var(--primary-color);
-}
-
-footer, footer a {
-    color: white;
-}
-
-footer a:hover {
-    color: var(--secondary-color);
-    background-color: var(--accent2-color);
 }
 
 .heading {
@@ -155,6 +145,8 @@ h1 {
     font-family: var(--heading-font);
     padding-left: 5px;
     font-size: 2em;
+    text-align: center;
+    color: var(--accent2-color);
 }
 
 h2,
@@ -180,14 +172,18 @@ footer {
     grid-template-columns: auto auto auto auto;
     justify-content: space-between;
     font-family: var(--paragraph-font);
-    color: white;
-    background-color: var(--accent2-color);
+    color: var(--accent2-color);
+    margin-top: 2em;
 }
 
 footer h4 {
-    color: var(--primary-color);
+    color: var(--accent1-color);
+    margin: 0;
+    padding: 0 0 4px 40px;
 }
-
+footer a:hover {
+    color: var(--accent1-color);
+}
 .contact {
     padding-left: 1.5em;
     grid-column: 1 / 4;
@@ -214,7 +210,23 @@ footer h4 {
     padding: .5em;
     margin-top: 1em;
     text-align: end;
+    grid-column: 3 / 5;
+    grid-row: 2;
+}
 
+.news {
+    grid-column: 4 / 5;
+}
+
+.subscribe {
+    background-color: var(--accent1-color);
+    border: 3px solid var(--accent2-color);
+    color: white;
+    padding: .75em 1em;
+    margin: .5em 0;
+    border-radius: .25em;
+    cursor: pointer;
+    font-size: .75em;
 }
 
 .copy {

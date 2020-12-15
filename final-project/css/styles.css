@@ -111,6 +111,10 @@ body {
     text-transform: capitalize;
 }
 
+.more a {
+    color: var(--accent1-color);
+}
+
 header {
     margin: 2em;
     margin: 0 auto;
@@ -280,9 +284,9 @@ footer a:hover {
     padding: 1em 2em;
 }
 
-.article h4 {
+.article h4, .article a {
     text-align: right;
-    font-size: 1.25em;
+    font-size: 1.2em;
     color: var(--accent1-color);
     text-decoration: underline;
 }

@@ -320,6 +320,12 @@ footer a:hover {
     margin: 2em 0;
 }
 
+.contact-form .welcome {
+    grid-column: span 2;
+    margin: 1em;
+    padding: 0 4em;
+}
+
 form {
     border: 2px solid #ccc;
     border-radius: 5px;

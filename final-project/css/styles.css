@@ -356,7 +356,7 @@ label {
     color: var(--accent1-color);
 }
 
-#name, #form-email, #message, #send {
+#name, .email, #message, #send {
     padding: .75em 1em;
     margin: .5em 0;
     border: 1px solid #ccc;

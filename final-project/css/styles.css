@@ -206,10 +206,11 @@ footer {
     margin-top: 2em;
 }
 
-footer h4 {
+footer h3 {
     color: var(--accent1-color);
     margin: 0;
     padding: 0 0 4px 40px;
+    font-size: 1.2em;
 }
 
 footer a {

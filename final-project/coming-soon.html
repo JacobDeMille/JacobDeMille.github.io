@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Ann's Fabrics</title>
+    <meta name="description" content="">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="shortcut icon" href="images/favicon-fabric-icon-fill.svg" type="image/x-icon">
+    <meta name="description"
+        content="Ann's Fabrics is a site dedicated to those who want to learn about quilting, but don't know where to start. Anyone with interest in anything quilting and sewing will find something interesting and uplifting to help them progress and become better in this amazingly fun hobby.">
+</head>
+
+<body>
+    <header>
+
+        <section class="heading">
+            <picture>
+                <img id="icon" src="images/fabric-icon-fill.svg" alt="[company] Logo" width="75">
+            </picture>
+            <h1>Ann's Fabrics</h1>
+        </section>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="guides.html">Guides</a></li>
+                <li class="current"><a href="contact.html">Contact</a></li>
+
+            </ul>
+        </nav>
+    </header>
+    <main class="coming-soon">
+        <h2 class="soon">Comming Soon...</h2>
+    </main>
+    <hr>
+    <footer>
+        <div class="contact">
+            <h4>Ann's Fabrics</h4>
+            <div>
+                <img src="images/home-icon.svg" alt="Home Icon">
+                <p>487 Morgan Avenue<br>
+                    Morgan, UT 84040</p>
+            </div>
+            <div>
+                <img src="images/phone-icon.svg" alt="phone-icon">
+                <p>215-829-9999</p>
+            </div>
+            <div>
+                <img src="images/email-icon.svg" alt="email-icon">
+                <p>info@annsfabric.com</p>
+            </div>
+        </div>
+        <div class="news">
+            <label for="email">Subscribe to Our Newsletter</label>
+            <input type="email" name="email" id="email">
+            <button id="subscribe" class="subscribe">Subscribe</button>
+            <p id="subscribed"></p>
+            <div class="social">
+                <a href="https://twitter.com/annsfabric?fbclid=IwAR0YrsJS4YxLk3tL-g9o1LC05b8F18Pw4UZMQkwMb5-taj0dBnJbv4QvHPg"
+                    target="_blank" rel="noopener noreferrer"><img src="images/twitter_icon.png" alt="twitter icon"></a>
+                <a href="https://www.facebook.com/Anns-Fabric-106616804462914" target="_blank"
+                    rel="noopener noreferrer"><img src="images/facebook_icon.png" alt="facebook icon"></a>
+                <a href="https://www.instagram.com/annsfabric/?fbclid=IwAR1Q4nReG2uVONv0NP0-JmBEJeRJvkEkLW4PJZ72JBEKz-aBPdZwHQRgWfE"
+                    target="_blank" rel="noopener noreferrer"><img src="images/instagram_icon.png"
+                        alt="instagram icon"></a>
+            </div>
+        </div>
+
+        <p class="copy">&copy;2020 Temple Inn & Suites | <b><a href="/final-site-plan.html">Site Plan</a></b> | Privacy
+            and Cookie Statement | Jacob
+            DeMille</p>
+    </footer>
+
+    <script>
+        document.getElementById("subscribe").addEventListener("click", subscribe);
+
+        function subscribe() {
+            document.getElementById("email").value = "";
+            document.getElementById("subscribed").innerHTML = "Thank You! You have been subscribed to our newsletter!"
+        }
+    </script>
+</body>
+
+</html>

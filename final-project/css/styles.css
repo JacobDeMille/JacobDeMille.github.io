@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
 
 :root {
@@ -282,7 +282,13 @@ footer a:hover {
 /* Styles for Guides Page */
 
 .article {
-    padding: 1em 2em;
+    padding: 0 2em 1em 2em;
+    margin-bottom: 2em;
+}
+
+.article p {
+    letter-spacing: .25px;
+    color: #004E89;
 }
 
 .article h4, .article a {

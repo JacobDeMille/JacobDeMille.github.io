@@ -352,8 +352,8 @@ footer a:hover {
 
 .contact-form img {
     grid-row: 1;
-    padding: 1.5em;
-    
+    margin: 1.5em;
+    box-shadow: 1px 1px 4px 1px #888;
 }
 
 form {

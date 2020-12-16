@@ -344,7 +344,7 @@ footer a:hover {
     align-self: center;
 }
 
-.contact-form div {
+#contact-message {
     grid-column: span 2;
     display: flex;
     max-width: 800px;
@@ -373,7 +373,7 @@ form ul {
     padding: 1em;
 }
 
-.contact-header {
+#contact-header {
     text-align: center;
 }
 
